@@ -1,0 +1,5 @@
+# Weights & Biases — requires `uv sync --extra wandb`
+name: wandb
+project: ml-research-template
+entity: null
+mode: online

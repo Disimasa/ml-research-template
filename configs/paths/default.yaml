@@ -1,0 +1,6 @@
+# @package paths
+root_dir: ${oc.env:PROJECT_ROOT,.}
+data_dir: ${paths.root_dir}/data
+models_dir: ${paths.root_dir}/models
+output_dir: ${paths.root_dir}/outputs
+research_dir: ${paths.root_dir}/research

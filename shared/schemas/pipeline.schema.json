@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pipeline.schema.json",
+  "title": "Active Pipeline Config",
+  "type": "object",
+  "required": ["profile", "mode", "phases"],
+  "properties": {
+    "profile": { "type": "string" },
+    "mode": { "type": "string", "enum": ["hitl", "autonomous"] },
+    "phases": { "type": "array", "items": { "type": "string" } }
+  }
+}

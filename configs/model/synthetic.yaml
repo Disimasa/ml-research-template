@@ -1,0 +1,2 @@
+# Synthetic demo model — see configs/experiment/synthetic_demo.yaml
+_target_: src.modeling.train.SyntheticModel

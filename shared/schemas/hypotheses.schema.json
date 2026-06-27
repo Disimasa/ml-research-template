@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hypotheses.schema.json",
+  "title": "Hypotheses",
+  "type": "object",
+  "required": ["hypotheses"],
+  "properties": {
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "statement", "status", "source"],
+        "properties": {
+          "id": { "type": "string" },
+          "statement": { "type": "string" },
+          "falsification_criteria": { "type": "string" },
+          "priority": { "type": "integer" },
+          "status": { "type": "string" },
+          "source": { "type": "string", "enum": ["user", "ai"] }
+        }
+      }
+    }
+  }
+}

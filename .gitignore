@@ -1,0 +1,50 @@
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ML / experiments
+outputs/*
+!outputs/.gitkeep
+models/*
+!models/.gitkeep
+wandb/
+mlruns/
+.lab/
+
+# Data (large files — use DVC opt-in)
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+!data/README.md
+
+# DVC local remote
+dvc-storage/*
+!dvc-storage/.gitkeep
+
+# Secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db

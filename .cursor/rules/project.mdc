@@ -1,0 +1,12 @@
+---
+description: CCDS + Hydra + uv project conventions
+alwaysApply: true
+---
+
+# Project conventions
+
+- Training logic lives in `src/modeling/`; entry points are `src/train.py` and `src/eval.py`.
+- Hydra configs under `configs/`; run outputs go to `outputs/` (gitignored).
+- Research state under `research/`.
+- Do not commit `.env`, API keys, or `outputs/`.
+- In `hitl` mode (see `research/research_state.yaml`), do not advance pipeline phases without human approval.

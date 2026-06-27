@@ -1,0 +1,3 @@
+# Local CSV fallback — no account required
+name: csv
+save_dir: ${paths.output_dir}/logs

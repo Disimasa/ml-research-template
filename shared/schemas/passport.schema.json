@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "passport.schema.json",
+  "title": "Material Passport Lite",
+  "type": "object",
+  "required": ["research_question", "phase", "experiment_intake_declaration"],
+  "properties": {
+    "research_question": { "type": ["string", "null"] },
+    "phase": { "type": "string" },
+    "claims": { "type": "array", "items": { "type": "object" } },
+    "planned_experiment_ids": { "type": "array", "items": { "type": "string" } },
+    "experiment_intake_declaration": {
+      "type": "string",
+      "enum": ["experiments_declared", "no_experiments_declared"]
+    }
+  }
+}

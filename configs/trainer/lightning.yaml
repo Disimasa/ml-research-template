@@ -1,0 +1,2 @@
+# Optional PyTorch Lightning trainer preset
+# _target_: lightning.pytorch.Trainer

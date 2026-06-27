@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "experiment_provenance.schema.json",
+  "title": "Experiment Provenance",
+  "type": "object",
+  "required": ["experiments"],
+  "properties": {
+    "experiments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["experiment_id"],
+        "properties": {
+          "experiment_id": { "type": "string" },
+          "hydra_config": { "type": "string" },
+          "wandb_run_id": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

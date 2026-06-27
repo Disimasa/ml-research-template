@@ -1,0 +1,6 @@
+topic: example_topic
+items: []
+execution:
+  batch_size: 1
+  items_per_agent: 1
+  output_dir: ./results

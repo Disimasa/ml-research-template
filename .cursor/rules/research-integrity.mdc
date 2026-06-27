@@ -1,0 +1,11 @@
+---
+description: Research integrity — no fabricated results
+globs: research/**,reports/**
+alwaysApply: false
+---
+
+# Research integrity
+
+- Never hardcode experiment metrics in `research/` or `reports/`.
+- Mark uncertain claims with `[uncertain]`.
+- Claims must link to `experiment_id` in provenance when stating results.

@@ -1,0 +1,4 @@
+# Opt-in DVC pipeline. Train works without DVC.
+# Setup: uv sync --extra dvc && dvc init
+
+stages: {}

@@ -1,0 +1,3 @@
+# MLflow — requires `uv sync --extra mlflow`
+name: mlflow
+tracking_uri: ${paths.output_dir}/mlruns

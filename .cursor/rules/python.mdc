@@ -1,0 +1,10 @@
+---
+description: Python and PyTorch style
+globs: "**/*.py"
+alwaysApply: false
+---
+
+# Python
+
+- Match existing style; run `uv run ruff check src tests` before large changes.
+- Prefer `src/modeling/` for model and training code.

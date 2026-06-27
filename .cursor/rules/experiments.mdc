@@ -1,0 +1,11 @@
+---
+description: Hydra experiments and training entry points
+globs: configs/**,src/train.py,src/eval.py
+alwaysApply: false
+---
+
+# Experiments
+
+- Experiment presets: `configs/experiment/*.yaml`.
+- Override logger: `logger=wandb` (requires `uv sync --extra wandb`), `logger=mlflow` (requires `uv sync --extra mlflow`), or keep default `logger=csv`.
+- Link runs to research via `experiment_id` in provenance.

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "benchmark_report.schema.json",
+  "title": "Benchmark Report",
+  "type": "object",
+  "required": ["experiment_id", "metrics"],
+  "properties": {
+    "experiment_id": { "type": "string" },
+    "baseline_id": { "type": ["string", "null"] },
+    "metrics": { "type": "object" },
+    "honest_comparison_notes": { "type": "string" }
+  }
+}

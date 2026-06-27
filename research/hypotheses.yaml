@@ -1,0 +1,7 @@
+hypotheses: []
+# - id: hyp_001
+#   statement: ""
+#   falsification_criteria: ""
+#   priority: 1
+#   status: proposed  # proposed | selected | rejected | tested
+#   source: ai  # user | ai

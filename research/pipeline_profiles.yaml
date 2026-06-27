@@ -1,0 +1,34 @@
+# Preset phase bundles — see AGENTS.md
+
+profiles:
+  literature-only:
+    mode: hitl
+    phases: [discover]
+
+  hypothesis-only:
+    mode: hitl
+    phases: [discover, ideate, synthesize]
+
+  plan-only:
+    mode: hitl
+    phases: [discover, ideate, plan]
+
+  execute-only:
+    mode: hitl
+    phases: [execute, analyze]
+
+  research-no-code:
+    mode: hitl
+    phases: [bootstrap, discover, ideate, plan, synthesize]
+
+  full-hitl:
+    mode: hitl
+    phases: [bootstrap, discover, ideate, plan, execute, analyze, synthesize]
+
+  full-autonomous:
+    mode: autonomous
+    phases: [bootstrap, discover, ideate, plan, execute, analyze, synthesize]
+
+  custom:
+    mode: hitl
+    phases: []

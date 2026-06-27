@@ -1,0 +1,11 @@
+---
+description: HITL vs autonomous pipeline behavior
+alwaysApply: true
+---
+
+# Pipeline mode
+
+Read `research/research_state.yaml` → `mode`.
+
+- In `hitl` mode: do not advance phases without `approved_by: human` in `research/research_state.yaml`.
+- In `autonomous` mode: log to `research/decision_log.md` and `research/to_human/`.

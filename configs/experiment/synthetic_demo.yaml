@@ -1,0 +1,10 @@
+# @package _global_
+# Example: python src/train.py experiment=synthetic_demo
+
+defaults:
+  - override /model: synthetic
+  - override /datamodule: synthetic
+
+experiment_id: synthetic_demo
+tags:
+  - demo
