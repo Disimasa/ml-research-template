@@ -1,0 +1,13 @@
+reviews: []
+# - round: 1
+#   reviewer_id: R1
+#   role: peer_reviewer_r1
+#   recommendation: major_revision  # accept | minor_revision | major_revision | reject
+#   summary: ""
+#   major_points: []
+#   minor_points: []
+
+editorial_decision: null
+# decision: accept | minor_revision | major_revision | reject
+# decided_by: editor_in_chief
+# round: 1

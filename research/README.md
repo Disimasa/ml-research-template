@@ -16,5 +16,6 @@
 | `decision_log.md` | Решения (user / ai) |
 | `literature/` | Обзор литературы по темам; шаблон — `_example/` |
 | `to_human/` | Краткие отчёты в autonomous-режиме |
+| `manuscript/` | Publication track: draft, reviews, revision — [manuscript/README.md](manuscript/README.md) |
 
-Схемы: `shared/schemas/`. Подробности для ассистентов: [AGENTS.md](../AGENTS.md), skills — `.cursor/skills/`.
+Схемы: `shared/schemas/`. Агенты: [AGENTS.md](../AGENTS.md), playbooks — `.cursor/agents/playbooks/`.

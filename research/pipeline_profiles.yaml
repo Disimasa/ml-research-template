@@ -29,6 +29,35 @@ profiles:
     mode: autonomous
     phases: [bootstrap, discover, ideate, plan, execute, analyze, synthesize]
 
+  full-publication:
+    mode: hitl
+    phases:
+      - bootstrap
+      - discover
+      - ideate
+      - plan
+      - execute
+      - analyze
+      - synthesize
+      - write
+      - integrity_pre_review
+      - review
+      - revise
+      - re_review
+      - integrity_final
+      - finalize
+
+  publication-only:
+    mode: hitl
+    phases:
+      - write
+      - integrity_pre_review
+      - review
+      - revise
+      - re_review
+      - integrity_final
+      - finalize
+
   custom:
     mode: hitl
     phases: []

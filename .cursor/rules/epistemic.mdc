@@ -1,0 +1,13 @@
+---
+description: Epistemic hygiene for research artifacts
+globs: research/**
+alwaysApply: false
+---
+
+# Epistemic
+
+- Prefer primary sources (papers, official docs, reproduced runs) over summaries.
+- Derive claims from artifacts on disk; do not guess metrics or citations.
+- Mark inference gaps with `[uncertain]` and list what evidence is missing.
+- Separate **observed** (in `outputs/`, W&B, provenance) from **hypothesized** (in `hypotheses.yaml`).
+- In `discover`, store sources in `research/literature/{topic}/results/*.json` before citing them elsewhere.

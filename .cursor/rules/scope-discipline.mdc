@@ -1,0 +1,11 @@
+---
+description: Minimal diff — only what the task requires
+alwaysApply: true
+---
+
+# Scope discipline
+
+- Prefer the smallest correct change; do not refactor unrelated code.
+- Do not add training implementation unless the task is Wave A / execute phase.
+- Do not re-introduce removed tooling (e.g. validate scripts) unless explicitly requested.
+- Match existing naming, layout, and documentation level in the template.

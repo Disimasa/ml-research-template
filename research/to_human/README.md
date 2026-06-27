@@ -1,3 +1,3 @@
 # Autonomous mode summaries for human review (gitignored content optional)
 
-Summaries written by `autonomous-loop` skill appear here.
+Summaries written by skill `autonomous-loop` / `log-decision` appear here. Template: `summary.template.md`.

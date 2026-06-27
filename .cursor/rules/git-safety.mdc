@@ -1,0 +1,11 @@
+---
+description: Git safety for template and fork workflows
+alwaysApply: true
+---
+
+# Git safety
+
+- Never commit `.env`, API keys, `outputs/`, `wandb/`, or large data under `data/raw/`.
+- Do not run destructive git commands (`push --force`, `reset --hard`) unless the user explicitly asks.
+- Do not create commits unless the user requests them.
+- In `autonomous` mode, still do not auto-commit; log intent in `research/decision_log.md`.
